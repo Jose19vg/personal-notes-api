@@ -1,16 +1,21 @@
 {
-<<<<<<< HEAD
   "name": "personal-notes-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "axios": "^1.1.2",
+    "laravel-vite-plugin": "^0.7.2",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "vite": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -41,18 +46,4 @@
     "not dead",
     "not ie 11"
   ]
-=======
-    "private": true,
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.2",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vite": "^4.0.0"
-    }
->>>>>>> e41621968ccd3ec25b5f9a948282244efd43d3fa
 }
